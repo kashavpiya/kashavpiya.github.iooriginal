@@ -223,7 +223,7 @@ footer .visit {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .text h1 {
         font-size: 90px;
     }
