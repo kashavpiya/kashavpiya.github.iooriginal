@@ -195,6 +195,12 @@ footer .visit {
         flex-wrap: wrap;
         -ms-flex-align: center;
     }
+    /* .button {
+        height: 80px;
+    } */
+    .para {
+        width: 80%;
+    }
     .name {
         align-items: center;
         justify-content: center;
@@ -217,6 +223,10 @@ footer .visit {
     }
     .name img {
         margin: 8px auto auto;
+    }
+    .button {
+        width: 25%;
+        height: 60px;
     }
     footer {
         grid-template-columns: 1fr 1fr;
