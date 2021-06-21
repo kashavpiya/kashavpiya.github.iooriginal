@@ -61,7 +61,7 @@ header {
     font-size: 108px;
     text-transform: uppercase;
     text-align: right;
-    margin: 45% 20px 0 auto;
+    margin: 60% 20px 0 auto;
     line-height: 0.8;
 }
 
@@ -118,6 +118,42 @@ footer .visit {
 .visit a img:hover {
     width: 22px;
     height: 22px;
+}
+
+.button {
+    width: 15%;
+    height: 40px;
+    padding-top: 15px;
+    text-align: center;
+    margin: 15px auto;
+    background-color: rgb(216, 195, 165);
+    color: rgb(232, 90, 79);
+    font-family: "Quicksand", sans-serif;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.button:hover {
+    background-color: rgb(232, 90, 79);
+    color: black;
+    text-decoration: underline;
+    z-index: 1;
+}
+
+.para {
+    font-family: "Quicksand", sans-serif;
+    width: 45%;
+    margin: 20px auto;
+    border: 3px solid rgb(216, 195, 165);
+    padding: 5px 25px 50px 25px;
+    margin-bottom: 50px;
+}
+
+.content {
+    padding-top: 50px;
 }
 
 @media only screen and (max-width: 1600px) {
