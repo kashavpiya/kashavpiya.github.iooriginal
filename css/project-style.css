@@ -85,7 +85,7 @@ header {
     font-size: 108px;
     text-transform: uppercase;
     text-align: right;
-    margin: 35% 20px 0 auto;
+    margin: 80% 20px 0 auto;
     line-height: 0.8;
 }
 
@@ -173,6 +173,19 @@ footer .visit {
 
 .content {
     padding-top: 50px;
+}
+
+.content1 {
+    padding-top: 50px;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.content1 img {
+    width: 100%;
 }
 
 @media only screen and (max-width: 1600px) {
