@@ -247,6 +247,9 @@ footer .visit {
     footer {
         grid-template-columns: 2fr 1fr;
     }
+    .content1 {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media only screen and (max-width: 600px) {
