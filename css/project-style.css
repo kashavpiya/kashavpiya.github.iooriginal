@@ -79,6 +79,24 @@ header {
     min-width: 340px;
 }
 
+.text1 h1 {
+    font-family: "Alegreya", serif;
+    font-weight: 700;
+    font-size: 108px;
+    text-transform: uppercase;
+    text-align: right;
+    margin: 35% 20px 0 auto;
+    line-height: 0.8;
+}
+
+.text1 p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: right;
+    margin: 5px 20px auto auto;
+}
+
 .topnav {
     display: none;
 }
