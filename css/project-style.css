@@ -187,6 +187,7 @@ footer .visit {
 
 .content1 img {
     width: 100%;
+    box-shadow: 4px 4px 5px rgb(190, 190, 190);
 }
 
 .content1 img:hover {
