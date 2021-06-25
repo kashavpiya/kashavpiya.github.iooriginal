@@ -192,6 +192,8 @@ footer .visit {
 
 .content1 img:hover {
     width: 105%;
+    z-index: 5;
+    box-shadow: none;
 }
 
 @media only screen and (max-width: 1600px) {
