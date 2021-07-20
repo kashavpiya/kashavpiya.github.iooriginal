@@ -296,10 +296,15 @@ footer .visit {
         height: 40px;
     }
     footer {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    footer .build {
+        padding-left: 0;
+        margin-bottom: 0;
     }
     footer .visit {
-        padding-left: 70px;
+        margin-left: 0;
     }
     .nav {
         display: none;

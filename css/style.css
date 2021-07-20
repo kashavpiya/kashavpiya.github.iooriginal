@@ -236,12 +236,6 @@ footer .visit {
     .name img {
         margin: 8px auto auto;
     }
-    footer {
-        grid-template-columns: 1fr 1fr;
-    }
-    footer .visit {
-        padding-left: 70px;
-    }
     .nav {
         display: none;
     }
@@ -281,6 +275,17 @@ footer .visit {
     .active {
         background-color: #04AA6D;
         color: white;
+    }
+    footer {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    footer .build {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    footer .visit {
+        margin-left: 0;
     }
 }
 
