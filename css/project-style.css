@@ -82,7 +82,7 @@ header {
 .text1 h1 {
     font-family: "Alegreya", serif;
     font-weight: 700;
-    font-size: 108px;
+    font-size: 100px;
     text-transform: uppercase;
     text-align: right;
     margin: 80% 20px 0 auto;
@@ -139,7 +139,7 @@ footer .visit {
 }
 
 .button {
-    width: 15%;
+    width: 240px;
     height: 40px;
     padding-top: 15px;
     text-align: center;
@@ -236,6 +236,9 @@ footer .visit {
     /* .container {
         width: 100%;
     } */
+    .text h1 {
+        font-size: 90px;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -248,7 +251,7 @@ footer .visit {
         -ms-flex-align: center;
     }
     /* .button {
-        height: 80px;
+        height: 50px;
     } */
     .para {
         width: 80%;
@@ -273,18 +276,24 @@ footer .visit {
     .content1 {
         grid-template-columns: 1fr;
     }
+    .para {
+        padding: 5px 10px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-    .text h1 {
-        font-size: 90px;
-    }
     .name img {
         margin: 8px auto auto;
     }
     .button {
-        width: 25%;
-        height: 60px;
+        width: 240px;
+    }
+    .text h1 {
+        font-size: 80px;
+    }
+    .health,
+    .future {
+        height: 40px;
     }
     footer {
         grid-template-columns: 1fr 1fr;
@@ -317,15 +326,16 @@ footer .visit {
         background: rgb(216, 195, 165);
         display: flex;
         margin: auto;
+        font-size: 18px;
     }
     /* Add a grey background color on mouse-over */
-    .topnav a:hover {
+    /* .topnav a:hover {
         background-color: rgb(232, 90, 79);
         color: black;
         font-size: 17px;
         font-weight: 600;
         z-index: 1;
-    }
+    } */
     /* Style the active link (or home/logo) */
     .active {
         background-color: #04AA6D;
