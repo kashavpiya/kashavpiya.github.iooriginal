@@ -13,11 +13,10 @@ body {
 }
 
 .container {
-    width: 62%;
+    /* width: 62%; */
     margin: 0 auto;
     background-color: rgb(234, 231, 220);
-    max-width: 1600px;
-    min-width: 350px;
+    max-width: 1920px;
 }
 
 header {
@@ -28,7 +27,7 @@ header {
 }
 
 .nav {
-    width: 50%;
+    width: 35%;
     margin-left: auto;
     padding-top: 30px;
     margin-right: auto;
@@ -38,7 +37,7 @@ header {
 .nav a {
     text-decoration: none;
     font-family: "Quicksand", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
     color: rgb(232, 90, 79);
     text-align: center;
@@ -47,7 +46,8 @@ header {
 
 .nav a:hover {
     text-decoration: underline;
-    font-size: 16px;
+    font-size: 18px;
+    padding-bottom: 16px;
 }
 
 .name {
@@ -209,33 +209,33 @@ footer .visit {
 }
 
 @media only screen and (max-width: 1600px) {
-    .container {
+    /* .container {
         width: 70%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1450px) {
-    .container {
+    /* .container {
         width: 80%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1350px) {
-    .container {
+    /* .container {
         width: 90%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1250px) {
-    .container {
+    /* .container {
         width: 95%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1175px) {
-    .container {
+    /* .container {
         width: 100%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 900px) {

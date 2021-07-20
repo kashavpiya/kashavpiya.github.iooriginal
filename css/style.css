@@ -13,22 +13,20 @@ body {
 }
 
 .container {
-    width: 62%;
+    /* width: 62%; */
     margin: 0 auto;
     background-color: rgb(234, 231, 220);
-    max-width: 1600px;
-    min-width: 350px;
+    max-width: 1920px;
 }
 
 header {
     color: rgb(232, 90, 79);
     background-color: rgb(216, 195, 165);
     padding-bottom: 50px;
-    align-items: center;
 }
 
 .nav {
-    width: 50%;
+    width: 35%;
     margin-left: auto;
     padding-top: 30px;
     margin-right: auto;
@@ -38,7 +36,7 @@ header {
 .nav a {
     text-decoration: none;
     font-family: "Quicksand", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
     color: rgb(232, 90, 79);
     text-align: center;
@@ -47,7 +45,8 @@ header {
 
 .nav a:hover {
     text-decoration: underline;
-    font-size: 16px;
+    font-size: 18px;
+    padding-bottom: 16px;
 }
 
 .name {
@@ -94,12 +93,12 @@ header {
     width: 45%;
     margin: 20px auto;
     border: 3px solid rgb(216, 195, 165);
-    padding: 5px 25px 50px 25px;
+    padding: 15px 45px 60px 45px;
     margin-bottom: 50px;
 }
 
 .button {
-    width: 15%;
+    width: 21%;
     height: 40px;
     padding-top: 15px;
     text-align: center;
@@ -163,38 +162,44 @@ footer .visit {
 }
 
 @media only screen and (max-width: 1600px) {
-    .container {
+    /* .container {
         width: 70%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1450px) {
-    .container {
+    /* .container {
         width: 80%;
-    }
+    }*/
 }
 
 @media only screen and (max-width: 1350px) {
-    .container {
+    /* .container {
         width: 90%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1250px) {
-    .container {
+    /* .container {
         width: 95%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1175px) {
-    .container {
+    /* .container {
         width: 100%;
+    } */
+    .button {
+        width: 28%;
     }
 }
 
 @media only screen and (max-width: 900px) {
     .nav {
-        width: 100%;
+        width: 70%;
+    }
+    .nav a {
+        padding-right: 10%;
     }
     .name {
         display: flex;
@@ -230,10 +235,6 @@ footer .visit {
     .name img {
         margin: 8px auto auto;
     }
-    .button {
-        width: 25%;
-        height: 60px;
-    }
     footer {
         grid-template-columns: 1fr 1fr;
     }
@@ -265,18 +266,26 @@ footer .visit {
         background: rgb(216, 195, 165);
         display: flex;
         margin: auto;
+        font-size: 19px;
     }
     /* Add a grey background color on mouse-over */
-    .topnav a:hover {
+    /* .topnav a:hover {
         background-color: rgb(232, 90, 79);
         color: black;
         font-size: 17px;
         font-weight: 600;
         z-index: 1;
-    }
+    } */
     /* Style the active link (or home/logo) */
     .active {
         background-color: #04AA6D;
         color: white;
+    }
+}
+
+@media only screen and (max-width: 453px) {
+    .button {
+        width: 25%;
+        height: 60px;
     }
 }
