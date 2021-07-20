@@ -264,13 +264,13 @@ footer .visit {
         font-size: 19px;
     }
     /* Add a grey background color on mouse-over */
-    /* .topnav a:hover {
+    .topnav a:hover {
         background-color: rgb(232, 90, 79);
         color: black;
         font-size: 17px;
         font-weight: 600;
         z-index: 1;
-    } */
+    }
     /* Style the active link (or home/logo) */
     .active {
         background-color: #04AA6D;
