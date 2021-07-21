@@ -191,7 +191,7 @@ footer .visit {
 }
 
 .content1 img:hover {
-    width: 105%;
+    width: 104%;
     z-index: 5;
     box-shadow: none;
 }
@@ -212,6 +212,12 @@ footer .visit {
 
 .para a:hover {
     font-size: 19px;
+}
+
+.project {
+    width: 50%;
+    border: 3px solid rgb(216, 195, 165);
+    margin: 0 auto;
 }
 
 .project-img {
