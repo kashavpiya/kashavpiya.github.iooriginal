@@ -204,8 +204,28 @@ footer .visit {
     padding-right: 20px;
 }
 
+.content3 {
+    margin: 70px auto;
+    text-align: center;
+    align-items: center;
+}
+
 .para a:hover {
     font-size: 19px;
+}
+
+.project-img {
+    width: 500px;
+    margin: 50px auto 3px;
+}
+
+.project a {
+    text-decoration: none;
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media only screen and (max-width: 1600px) {
