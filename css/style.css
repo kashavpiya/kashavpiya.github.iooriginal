@@ -23,6 +23,7 @@ header {
     color: rgb(232, 90, 79);
     background-color: rgb(216, 195, 165);
     padding-bottom: 50px;
+    align-items: center;
 }
 
 .nav {
@@ -60,7 +61,7 @@ header {
     font-size: 108px;
     text-transform: uppercase;
     text-align: right;
-    margin: 45% 20px 0 auto;
+    margin: 65% 20px 0 auto;
     line-height: 0.8;
 }
 
